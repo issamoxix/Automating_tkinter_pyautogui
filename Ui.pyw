@@ -44,7 +44,7 @@ class Application(tk.Frame):
             self.master.update()
 
 root = tk.Tk()
-root.title("Bald Man Working")
+root.title("Automating")
 root.geometry("300x40")
 root.lift()
 root.call('wm', 'attributes', '.', '-topmost', True)
